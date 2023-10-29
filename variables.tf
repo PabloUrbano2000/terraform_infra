@@ -36,3 +36,10 @@ variable "ingress_ports_list" {
   description = "Lista de puertos de ingress"
   type        = list(number)
 }
+
+
+// de esta forma es importante para detectar las variables del
+// lado de terraform cloud
+variable "access_key" {}
+
+variable "secret_key" {}
